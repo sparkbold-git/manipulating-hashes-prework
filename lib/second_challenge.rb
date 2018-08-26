@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  string =""
+  string = groceries.values.join(", ") #flatern nested arrays to string
+  string.split(", ") #convert string back to single array
 end
